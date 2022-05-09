@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1651958165764" clover="3.2.0">
-  <project timestamp="1651958165764" name="All files">
-    <metrics statements="51" coveredstatements="47" conditionals="11" coveredconditionals="10" methods="3" coveredmethods="2" elements="65" coveredelements="59" complexity="0" loc="51" ncloc="51" packages="2" files="3" classes="3"/>
+<coverage generated="1652097833356" clover="3.2.0">
+  <project timestamp="1652097833356" name="All files">
+    <metrics statements="65" coveredstatements="61" conditionals="14" coveredconditionals="13" methods="6" coveredmethods="5" elements="85" coveredelements="79" complexity="0" loc="65" ncloc="65" packages="3" files="4" classes="4"/>
     <package name="controllers.signup">
-      <metrics statements="48" coveredstatements="44" conditionals="11" coveredconditionals="10" methods="3" coveredmethods="2"/>
+      <metrics statements="45" coveredstatements="41" conditionals="11" coveredconditionals="10" methods="3" coveredmethods="2"/>
       <file name="signup-protocols.ts" path="F:\Projetos\node_clean_api\src\presentation\controllers\signup\signup-protocols.ts">
         <metrics statements="4" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -12,7 +12,7 @@
         <line num="4" count="0" type="stmt"/>
       </file>
       <file name="signup.ts" path="F:\Projetos\node_clean_api\src\presentation\controllers\signup\signup.ts">
-        <metrics statements="44" coveredstatements="44" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <metrics statements="41" coveredstatements="41" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -49,14 +49,11 @@
         <line num="34" count="4" type="stmt"/>
         <line num="35" count="4" type="stmt"/>
         <line num="36" count="4" type="stmt"/>
-        <line num="37" count="4" type="stmt"/>
-        <line num="38" count="4" type="stmt"/>
-        <line num="39" count="4" type="stmt"/>
-        <line num="40" count="11" type="cond" truecount="1" falsecount="0"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="42" count="2" type="stmt"/>
-        <line num="43" count="11" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
+        <line num="37" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="11" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
       </file>
     </package>
     <package name="errors">
@@ -66,6 +63,29 @@
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="helpers">
+      <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="http-helpers.ts" path="F:\Projetos\node_clean_api\src\presentation\helpers\http-helpers.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
       </file>
     </package>
   </project>
