@@ -7,9 +7,6 @@ export class AccountMongoRepository implements AddAccountRepository {
   async add(accountData: AddAccountModel): Promise<AccountModel> {
     const accountCollection = MongoHelper.getCollection('accounts')
     const result = await accountCollection.insertOne(accountData)
-    const account = result.insertedId.toString()
-    //const { _id, ...accountWithoutId} = account
-    return Object.assign(accountData, {id: account})
-
+    return MongoHelper.map(accountData)
   }
 }
