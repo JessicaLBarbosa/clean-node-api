@@ -160,4 +160,4 @@ Aprendizado de criação de uma API com uma arquitetura bem definida e desacopla
 * Upsert e ReturnOriginal
 * Push, Divide, Multiply, ArrayElemAt, Cond, Sum
 * Filter, Map, Reduce, MergeObjects, ConcatArrays
-* 
+
