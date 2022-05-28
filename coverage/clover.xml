@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652383893228" clover="3.2.0">
-  <project timestamp="1652383893228" name="All files">
-    <metrics statements="71" coveredstatements="61" conditionals="3" coveredconditionals="3" methods="18" coveredmethods="18" elements="92" coveredelements="82" complexity="0" loc="71" ncloc="71" packages="9" files="14" classes="14"/>
+<coverage generated="1653774599665" clover="3.2.0">
+  <project timestamp="1653774599665" name="All files">
+    <metrics statements="80" coveredstatements="70" conditionals="8" coveredconditionals="8" methods="19" coveredmethods="19" elements="107" coveredelements="97" complexity="0" loc="80" ncloc="80" packages="10" files="15" classes="15"/>
     <package name="data.usecases.add-account">
       <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="db-add-account-protocols.ts" path="F:\Projetos\node_clean_api\src\data\usecases\add-account\db-add-account-protocols.ts">
@@ -44,16 +44,30 @@
       </file>
     </package>
     <package name="infra.db.mongodb.helpers">
-      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="11" coveredstatements="11" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
       <file name="mongo-helper.ts" path="F:\Projetos\node_clean_api\src\infra\db\mongodb\helpers\mongo-helper.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="3" count="5" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
+        <metrics statements="11" coveredstatements="11" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="21" count="8" type="cond" truecount="5" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.db.mongodb.log-repository">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="log.ts" path="F:\Projetos\node_clean_api\src\infra\db\mongodb\log-repository\log.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
     </package>
     <package name="presentation.controllers.signup">
@@ -89,40 +103,41 @@
       </file>
     </package>
     <package name="presentation.errors">
-      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="F:\Projetos\node_clean_api\src\presentation\errors\index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="2" count="5" type="stmt"/>
-        <line num="3" count="5" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
       </file>
       <file name="invalid-param-error.ts" path="F:\Projetos\node_clean_api\src\presentation\errors\invalid-param-error.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="5" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
         <line num="3" count="4" type="stmt"/>
         <line num="4" count="4" type="stmt"/>
       </file>
       <file name="missing-param-error.ts" path="F:\Projetos\node_clean_api\src\presentation\errors\missing-param-error.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="5" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
         <line num="3" count="8" type="stmt"/>
         <line num="4" count="8" type="stmt"/>
       </file>
       <file name="server-error.ts" path="F:\Projetos\node_clean_api\src\presentation\errors\server-error.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
       </file>
     </package>
     <package name="presentation.helpers">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="http-helpers.ts" path="F:\Projetos\node_clean_api\src\presentation\helpers\http-helpers.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="9" count="5" type="stmt"/>
-        <line num="14" count="5" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="4" count="12" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
       </file>
     </package>
     <package name="presentation.protocols">
