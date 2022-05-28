@@ -1,4 +1,5 @@
 {
   "terminal.integrated.fontSize": 12,
-  "editor.fontSize": 14
+  "editor.fontSize": 14,
+  "instant-documentation.autoShowDocumentation": true
 }
